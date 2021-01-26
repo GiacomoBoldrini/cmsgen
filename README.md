@@ -12,7 +12,7 @@ Repository for various gridpacks generation fragments
  
  git clone --branch UL2019 https://github.com/cms-sw/genproductions.git
  cd genproductions/bin/MadGraph5_aMCatNLO
- git clone 
+ git clone git@github.com:GiacomoBoldrini/cmsgen.git
  
  ./gridpack_generation.sh <card_name> <card_dir>
 ```
