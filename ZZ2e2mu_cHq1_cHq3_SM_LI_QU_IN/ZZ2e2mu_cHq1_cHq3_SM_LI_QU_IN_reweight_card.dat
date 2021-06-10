@@ -1,0 +1,22 @@
+change helicity False
+change rwgt_dir rwgt
+# 24 cHq1
+# 25 cHq3
+launch
+    set SMEFT 24 0.0
+    set SMEFT 25 0.0
+launch
+    set SMEFT 24 1.0
+    set SMEFT 25 0.0
+launch
+    set SMEFT 24 0.0
+    set SMEFT 25 1.0
+launch
+    set SMEFT 24 1.0
+    set SMEFT 25 1.0
+launch
+    set SMEFT 24 0.0
+    set SMEFT 25 -1.0
+launch
+    set SMEFT 24 -1.0
+    set SMEFT 25 0.0
