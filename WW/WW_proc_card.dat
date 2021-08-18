@@ -6,8 +6,8 @@ define l+ = e+ mu+
 define l- = e- mu-
 define vl = ve vm vt
 define vl~ = ve~ vm~ vt~
-generate p p > e+ ve mu- vm~ NP=1  
-add process p p > e- ve~ mu+ vm NP=1 
+generate p p > e+ ve mu- vm~ NP=1 SMHLOOP=0 
+add process p p > e- ve~ mu+ vm NP=1 SMHLOOP=0
 
 output WW -nojpeg
 
